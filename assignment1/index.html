@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title -->
+  <title>Pick Words And Create a Story</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- External JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Container -->
+  <div class="container">
+    <!-- Title -->
+    <h1>Pick Words And Create a Story</h1>
+    
+    <!-- Word selection buttons -->
+    <div class="word-buttons">
+      <button id="button1" onclick="cycleWords(1)">First Word</button>
+      <button id="button2" onclick="cycleWords(2)">Second Word</button>
+      <button id="button3" onclick="cycleWords(3)">Third Word</button>
+      <button id="button4" onclick="cycleWords(4)">Fourth Word</button>
+      <button id="button5" onclick="cycleWords(5)">Fifth Word</button>
+    </div>
+    
+    <!-- Button to view the story -->
+    <button id="view-story-btn" onclick="viewStory()">View Story</button>
+    <!-- Button to create random story -->
+    <button id="random-story-btn" onclick="generateRandomStory()">Generate Random Story</button>
+    <!-- Button to reset the story -->
+    <button id="reset-btn" onclick="resetStory()">Reset</button>
+    <!-- Story output container -->
+    <div id="story-output"></div>
+  </div>
+</body>
+</html>

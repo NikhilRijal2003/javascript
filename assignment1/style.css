@@ -1,0 +1,76 @@
+body {
+    /* Set font family and background color */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(./book.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    /* Center container horizontally, set max width, add padding */
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    /* Set color for heading */
+    color: #f92606;
+  }
+  
+  .word-buttons {
+    /* Add margin to bottom of word buttons */
+    margin-bottom: 20px;
+  }
+  
+  .word-buttons button {
+    /* Style word buttons */
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #06976e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #view-story-btn {
+    /* Style view story button */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f1600c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #story-output {
+    /* Style story output */
+    margin-top: 290px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(7, 255, 81);
+    
+  }
+  #generate-random-story-btn {
+    /* Style to reset story */
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: #f1600c;
+   border:none;
+   cursor: pointer;
+   color: #f0f0f0;
+  }
+
+  
+  #reset-btn{
+    /* Style to output random story */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f1600c;
+    border:none;
+    cursor: pointer;
+    color: #f0f0f0;
+  }
+
+  
